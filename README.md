@@ -1,2 +1,2 @@
 # simple-calculator-design-patterns
-Simples calculadora usando Design Patterns Template Method e Chain of Responsibility 
+Estudo de Design Patterns Template Method e Chain of Responsibility em uma calculadora!
