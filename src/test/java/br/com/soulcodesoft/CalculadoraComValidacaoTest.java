@@ -11,7 +11,7 @@ import java.util.List;
 
 import static java.lang.Boolean.TRUE;
 
-public class CalculadoraTest {
+public class CalculadoraComValidacaoTest {
 
     private static List<String> sequenciaCalculoMatematico = Arrays.asList("*","/","+","-");
     private static List<BigDecimal> sequenciaValorCalculoCorrigido = new ArrayList<>();
@@ -27,6 +27,7 @@ public class CalculadoraTest {
         calculadora.calcular(calcularValor);
         System.out.println("Total: "+calcularValor.getTotal());
     }
+
 
     private static void corrigirSequenciaMatematica(List<String> sequenciaCalculoParametro){
         Boolean encontrouPrimeiraFuncao = Boolean.FALSE;
